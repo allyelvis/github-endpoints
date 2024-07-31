@@ -1,0 +1,11 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  provider: ^6.0.0
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.2
+  json_annotation: ^4.0.1
+  flutter_bloc: ^7.0.0
+  equatable: ^2.0.0
+  dio: ^4.0.0
