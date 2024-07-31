@@ -1,0 +1,23 @@
+{
+  "name": "aenzbi_inventory_system",
+  "version": "1.0.0",
+  "description": "inventory system",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyelvis/github-endpoints.git"
+  },
+  "author": "Ally Elvis Nzeyimana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allyelvis/github-endpoints/issues"
+  },
+  "homepage": "https://github.com/allyelvis/github-endpoints#readme"
+}

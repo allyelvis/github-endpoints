@@ -1,3 +1,13 @@
+name: aenzbi_inventory_system
+description: Aenzbi Inventory System with Invoice, Product Management, Ordering, Stock Management, POS, Accounting, and EBMS Integration.
+
+publish_to: 'none'  # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter
@@ -9,3 +19,20 @@ dependencies:
   flutter_bloc: ^7.0.0
   equatable: ^2.0.0
   dio: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+# Additional configurations for json_serializable
+dependencies:
+  json_annotation: ^4.0.1
+
+# Add this for code generation
+dev_dependencies:
+  build_runner: ^2.1.7
+  json_serializable: ^6.2.0
