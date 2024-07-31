@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'db_helper.dart';
-import 'modules/ebms/ebms_api.dart';
+import 'modules/ebms/ebms_module.dart';
 
 void main() {
   runApp(MyApp());
